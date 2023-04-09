@@ -1,4 +1,89 @@
-body { background-color: antiquewhite;}
-div { color: red;}
-p { color: black;}
-h2 {color:black}
+body { 
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(225, 226, 216);
+    padding-left: 21px;
+    padding-right: 21px;
+    
+   
+}
+
+nav {
+   font-size: 32px; 
+   margin-top: 21px;
+   margin-bottom: 21px;
+}
+
+#content-container {
+    background-color: rgb(145, 0, 0);
+    min-height: 100vh;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.heading-nomargin-top {
+    margin-top: 0;
+}
+.about-img {
+    width: 170px;
+    
+}
+.about-img-1 {
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.section-float {
+    color: inherit;
+    border-top: 1px solid white;
+}
+
+.about-img-home {
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    width: 170px;
+    margin-top: 24px;
+}
+ 
+p {
+    padding-top: 24px;
+    margin: 0;
+}
+
+h2 {
+    padding-top: 24px;
+    margin: 0;
+}
+
+.about-img-portfolio {
+    width: 250px;
+    
+}
+
+footer {
+    box-sizing: border-box;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+    background-color: white;
+}
+
+.media-link {
+    width: 32px;
+    height: 32px;
+}
