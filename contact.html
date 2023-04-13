@@ -8,29 +8,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> <center>Contact</center></h1>
     
-    <div style="text-align: center" </div> 
-    <a href="index.html"> Home</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="about.html"> About</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="portfoilio.html">Porfolio</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="contact.html">Contact</a> 
-    <div style="text-align: center" </div> 
-       <strong> 
-      
-        <p> 
-         
-            
-            Email: Mario.x@icloud.com <br>
-            Phone Number: 346-377-9238
+    <header>
+        <h1>Mario Soto</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfoilio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <div id="content-container">
         
+        <article id="article2"> Contact </article>
+        
+        <article>Please fill out the form. <br> 
+            I will reach out to you shortly.</article><br> 
 
-            
-        </p>
- 
-    </strong> 
+
+  <form action="result.html" method="GET">
+        <div>
+        
+        <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Name" required>
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+                
+
+    </div>
+
+    <div>
+        <label for="message">Message:</label> <br>
+        <textarea id="Message" name="Message" placeholder="Enter your message here"></textarea>    
 
 
+    </div>
+    <button type="submit">Submit</button>
+
+    </div>
+
+   
+   
+</form>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/mario-soto-59779626b" target="_blank">
+        <img class="media-link" src="https://vigilant-lumiere-2756fa.netlify.app/images/linkedin.svg" alt="">
+        </a>
     
 </body>
 </html>
